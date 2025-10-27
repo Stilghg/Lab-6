@@ -4,10 +4,10 @@
 using namespace std;
 
 int main() {
-    char n;
-    cin >> n;
-    n=toupper(n);
-    cout << n;
-
+    string n, m;
+    cin >> n  >> m;
+    
+    if(n==m) cout << "YES";   
+    else  cout << "NO";
     return 0;
-}   
+}

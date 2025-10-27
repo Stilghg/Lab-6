@@ -1,13 +1,19 @@
 #include <iostream>
-#include <cctype>
 #include <string>
+#include <cctype>
 using namespace std;
 
 int main() {
-    char n;
+    string n;
     cin >> n;
-    n=toupper(n);
+
+    for(int i=0; i<n.size(); i++){
+        n[i]=toupper(n[i]);
+    }
+
     cout << n;
 
+
+
     return 0;
-}   
+}
